@@ -51,7 +51,6 @@ Tabelle Trainingsplan (Name, Beschreibung, Übungen)
 
 
 - [ ] **Arbeitspacket4**:
-
 Baue ein einfaches UI-Formular für das Eintragen von Workouts (Textfelder, Buttons)
 Verknüpfe die Eingabemaske mit deiner Speicherfunktion
 
