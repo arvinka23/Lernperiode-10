@@ -40,14 +40,46 @@ Die Zeit ist am sinnvollsten investiert, da ich sowohl Backend (Logik, Datenbank
 ---
 
 ## 02.05.2025
-- [ ] **Arbeitspacket1**:
+- [x] **Arbeitspacket1**:
 Erstellen ein neues C#-Projekt 
 Richte die Verzeichnisstruktur für Code, Datenbank und Ressourcen ein
 
-- [ ] **Arbeitspacket2 und 3**:
+- [x] **Arbeitspacket2 und 3**:
 Tabelle Workouts (Datum, Übung, Gewicht, Wiederholungen, Sets)
 Tabelle Koerperdaten (Datum, Gewicht, Muskelumfang etc.)
 Tabelle Trainingsplan (Name, Beschreibung, Übungen)
+
+
+---
+## 09.05.2025
+
+## ⏭️ Nächste Schritte (Sitzung 2)
+
+### 🧩 Arbeitspaket 3: Datenbankzugriff (DAL)
+- `DatabaseManager.cs` erstellen
+- Verbindung zu SQL-Server herstellen
+- Methode `SaveWorkout(...)` schreiben
+
+### 🧩 Arbeitspaket 4: Modellklassen
+- `Workout.cs` erstellen
+- Weitere Models: `Koerperdaten.cs`, `Trainingsplan.cs`
+
+### 🧩 Arbeitspaket 5: UI starten
+- Erste Maske in **WinForms**
+- Eingabefelder: Datum, Übung, Gewicht, Wiederholungen, Sätze
+- Button: „Speichern“
+
+### 🧩 Arbeitspaket 6: Verbindung UI ↔ DB
+- Button soll Workout über `DatabaseManager` speichern
+- Erfolgsmeldung nach Eintrag
+- Funktion testen
+
+---
+
+## 📁 Projektstruktur (geplant)
+
+
+
 
 
 - [ ] **Arbeitspacket4**:
