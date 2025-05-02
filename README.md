@@ -36,3 +36,23 @@ Die Zeit ist am sinnvollsten investiert, da ich sowohl Backend (Logik, Datenbank
 
 ✍️ **Heute habe ich...**  
 ... die grobe Struktur meines Fitness-Trackers definiert, Programmiersprache (**C#**) und Datenbank (**SQL**) festgelegt und die drei wichtigsten Kernfeatures herausgearbeitet.
+
+---
+
+## 02.05.2025
+- [ ] **Arbeitspacket1**:
+Erstellen ein neues C#-Projekt 
+Richte die Verzeichnisstruktur für Code, Datenbank und Ressourcen ein
+
+- [ ] **Arbeitspacket2 und 3**:
+Tabelle Workouts (Datum, Übung, Gewicht, Wiederholungen, Sets)
+Tabelle Koerperdaten (Datum, Gewicht, Muskelumfang etc.)
+Tabelle Trainingsplan (Name, Beschreibung, Übungen)
+
+
+- [ ] **Arbeitspacket4**:
+
+Baue ein einfaches UI-Formular für das Eintragen von Workouts (Textfelder, Buttons)
+Verknüpfe die Eingabemaske mit deiner Speicherfunktion
+
+
