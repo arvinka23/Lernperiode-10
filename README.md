@@ -123,8 +123,8 @@ Die aktuelle Struktur des Projekts ist wie folgt organisiert:
 
 ## Arbeitspakete für heute (16.05.2025) Datenbankzugriff (Data Access Layer)
 Ziel: Implementiere die DatabaseManager-Klasse für den Zugriff auf die SQL-Datenbank.
-# 1:Erstelle DatabaseManager.cs in FitnessTracker.Core/Services.
-# 2:Stelle die Verbindung zu SQL Server her (nutze Entity Framework Core und die appsettings.json).
-# 3:Implementiere die Methode SaveWorkout(Workout workout) zum Speichern von Workouts.
-# 4:Teste die Methode mit einer Konsolen-App, die einen Test-Workout-Datensatz speichert und ausliest.
+1:Erstelle DatabaseManager.cs in FitnessTracker.Core/Services.
+2:Stelle die Verbindung zu SQL Server her (nutze Entity Framework Core und die appsettings.json).
+3:Implementiere die Methode SaveWorkout(Workout workout) zum Speichern von Workouts.
+4:Teste die Methode mit einer Konsolen-App, die einen Test-Workout-Datensatz speichert und ausliest.
 
