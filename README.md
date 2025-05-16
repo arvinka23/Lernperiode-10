@@ -53,23 +53,23 @@ Tabelle Trainingsplan (Name, Beschreibung, Übungen)
 ---
 ## 09.05.2025
 
-## ⏭️ Nächste Schritte (Sitzung 2)
+##  Nächste Schritte (Sitzung 2)
 
-### 🧩 Arbeitspaket 3: Datenbankzugriff (DAL)
+###  Arbeitspaket 1: Datenbankzugriff (DAL)
 - `DatabaseManager.cs` erstellen
 - Verbindung zu SQL-Server herstellen
 - Methode `SaveWorkout(...)` schreiben
 
-### 🧩 Arbeitspaket 4: Modellklassen
+### Arbeitspaket 2: Modellklassen
 - `Workout.cs` erstellen
 - Weitere Models: `Koerperdaten.cs`, `Trainingsplan.cs`
 
-### 🧩 Arbeitspaket 5: UI starten
+###  Arbeitspaket 3: UI starten
 - Erste Maske in **WinForms**
 - Eingabefelder: Datum, Übung, Gewicht, Wiederholungen, Sätze
 - Button: „Speichern“
 
-### 🧩 Arbeitspaket 6: Verbindung UI ↔ DB
+###  Arbeitspaket 4: Verbindung UI ↔ DB
 - Button soll Workout über `DatabaseManager` speichern
 - Erfolgsmeldung nach Eintrag
 - Funktion testen
@@ -80,10 +80,51 @@ Tabelle Trainingsplan (Name, Beschreibung, Übungen)
 
 
 
+## Projektstruktur:
+
+Die aktuelle Struktur des Projekts ist wie folgt organisiert:
+/FitnessTracker
+  /src
+    /FitnessTracker.Core
+      /Models
+        Workout.cs
+        Koerperdaten.cs
+        Trainingsplan.cs
+        PlanExercise.cs
+      /Data
+        FitnessDbContext.cs
+      /Services
+        DatabaseManager.cs (geplant)
+      FitnessTracker.Core.csproj
+      appsettings.json
+    /FitnessTracker.WinForms
+      /Forms
+        WorkoutForm.cs (geplant)
+        MainForm.cs (zukünftig für Hauptnavigation)
+      /Controls
+        (Für zukünftige benutzerdefinierte Steuerelemente)
+      Program.cs
+      FitnessTracker.WinForms.csproj
+      appsettings.json
+    /FitnessTracker.Tests
+      (Platzhalter für Unit-Tests)
+  /db
+    /migrations
+      (Entity Framework Core Migrations)
+    /scripts
+      init.sql (Initiales Datenbankskript)
+  /resources
+    /images
+      (Für zukünftige Icons oder Grafiken)
+    /docs
+      README.md
+  FitnessTracker.sln
 
 
-- [ ] **Arbeitspacket4**:
-Baue ein einfaches UI-Formular für das Eintragen von Workouts (Textfelder, Buttons)
-Verknüpfe die Eingabemaske mit deiner Speicherfunktion
-
+## Arbeitspakete für heute (16.05.2025) Datenbankzugriff (Data Access Layer)
+Ziel: Implementiere die DatabaseManager-Klasse für den Zugriff auf die SQL-Datenbank.
+# 1:Erstelle DatabaseManager.cs in FitnessTracker.Core/Services.
+# 2:Stelle die Verbindung zu SQL Server her (nutze Entity Framework Core und die appsettings.json).
+# 3:Implementiere die Methode SaveWorkout(Workout workout) zum Speichern von Workouts.
+# 4:Teste die Methode mit einer Konsolen-App, die einen Test-Workout-Datensatz speichert und ausliest.
 
