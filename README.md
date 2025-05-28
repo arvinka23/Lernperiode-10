@@ -76,49 +76,8 @@ Tabelle Trainingsplan (Name, Beschreibung, Übungen)
 
 ---
 
-## 📁 Projektstruktur (geplant)
 
 
-
-## Projektstruktur:
-
-Die aktuelle Struktur des Projekts ist wie folgt organisiert:
-/FitnessTracker
-  /src
-    /FitnessTracker.Core
-      /Models
-        Workout.cs
-        Koerperdaten.cs
-        Trainingsplan.cs
-        PlanExercise.cs
-      /Data
-        FitnessDbContext.cs
-      /Services
-        DatabaseManager.cs (geplant)
-      FitnessTracker.Core.csproj
-      appsettings.json
-    /FitnessTracker.WinForms
-      /Forms
-        WorkoutForm.cs (geplant)
-        MainForm.cs (zukünftig für Hauptnavigation)
-      /Controls
-        (Für zukünftige benutzerdefinierte Steuerelemente)
-      Program.cs
-      FitnessTracker.WinForms.csproj
-      appsettings.json
-    /FitnessTracker.Tests
-      (Platzhalter für Unit-Tests)
-  /db
-    /migrations
-      (Entity Framework Core Migrations)
-    /scripts
-      init.sql (Initiales Datenbankskript)
-  /resources
-    /images
-      (Für zukünftige Icons oder Grafiken)
-    /docs
-      README.md
-  FitnessTracker.sln
 
 
 ## Arbeitspakete für heute (16.05.2025) Datenbankzugriff (Data Access Layer)
