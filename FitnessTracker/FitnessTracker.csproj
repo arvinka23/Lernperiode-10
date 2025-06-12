@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="FitnessTracker.Core.csproj" />
+    <None Include="FitnessTracker.sln" />
+    <None Include="FitnessTracker.Console.csproj" />
+  </ItemGroup>
+
+</Project>
